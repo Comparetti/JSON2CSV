@@ -1,0 +1,36 @@
+# Ignore bin and obj folders (build outputs)
+bin/
+obj/
+
+# Ignore Visual Studio folder and files
+.vs/
+**/.vs/
+
+# Ignore cache and temporary files
+*.vscode/
+*.vsidx
+*.dtbcache.v2
+
+# Ignore Debug and Release folders
+Debug/
+Release/
+
+# Ignore DLLs and other build outputs
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Ignore Visual Studio project-specific files
+.vscode/
+.idea/
+*.user
+*.suo
+*.csproj.user
+*.csproj.vspscc
+*.vspscc
+
+# Ignore NuGet packages
+*.nupkg
+**/packages/*
